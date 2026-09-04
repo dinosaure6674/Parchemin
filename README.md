@@ -20,7 +20,7 @@ du `code source` rendu en caractères `monospaces`,
 Ce document est rédigé en [MarkDown](https://ericecmorlaix.github.io/img/GitHub00c.png).
 
 ## Une image :
-![illustration GitHub Docs]
+![illustration GitHub Docs](https://github.com/dinosaure6674/Parchemin/blob/main/IMG_1078.jpeg).
 
 ## Une liste :
 - Toto ;
