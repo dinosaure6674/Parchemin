@@ -17,10 +17,10 @@ du `code source` rendu en caractères `monospaces`,
     du ~~texte barré~~  rendu avec une ligne en travers du texte.
 
 ## Un lien :
-Ce document est rédigé en [MarkDown](https://fr.wikipedia.org/wiki/Markdown).
+Ce document est rédigé en [MarkDown](https://ericecmorlaix.github.io/img/GitHub00c.png).
 
 ## Une image :
-![illustration GitHub Docs](https://ericecmorlaix.github.io/img/GitHub00c.png)
+![illustration GitHub Docs]
 
 ## Une liste :
 - Toto ;
