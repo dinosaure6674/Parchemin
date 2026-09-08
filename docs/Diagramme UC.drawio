@@ -1,0 +1,25 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="5cbtH9P_gSo5cMWrv4me">
+    <mxGraphModel dx="1414" dy="777" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Xu8h62GnhY8Hld9snt8d-2" parent="1" style="shape=umlActor;html=1;verticalLabelPosition=bottom;verticalAlign=top;align=center;" value="utilisateur" vertex="1">
+          <mxGeometry height="60" width="30" x="120" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="Xu8h62GnhY8Hld9snt8d-8" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="160" y="390" as="sourcePoint" />
+            <mxPoint x="300" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Xu8h62GnhY8Hld9snt8d-12" parent="1" style="shape=rect;html=1;verticalAlign=top;fontStyle=1;whiteSpace=wrap;align=center;" value="bouilloire électrique" vertex="1">
+          <mxGeometry height="460" width="310" x="330" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="Xu8h62GnhY8Hld9snt8d-15" parent="1" style="shape=ellipse;html=1;strokeWidth=3;fontStyle=1;whiteSpace=wrap;align=center;perimeter=ellipsePerimeter;" value="UseCaseName" vertex="1">
+          <mxGeometry height="60" width="120" x="425" y="200" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
