@@ -1,6 +1,8 @@
 # Christopher
 ## sommaire
 - [ma fiche](Fiche_1SI.ipynb)
-- 🌻 name: Christopher 
-![image](IMG_1083.jpeg)
+ - 🌻 name: Christopher 
 🍮
+<style> 
+body {background: #FFFED9;}
+ </style>
