@@ -4,8 +4,8 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="Xu8h62GnhY8Hld9snt8d-2" parent="1" style="shape=umlActor;html=1;verticalLabelPosition=bottom;verticalAlign=top;align=center;" value="utilisateur" vertex="1">
-          <mxGeometry height="60" width="30" x="120" y="360" as="geometry" />
+        <mxCell id="Xu8h62GnhY8Hld9snt8d-2" parent="1" style="shape=umlActor;html=1;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#e1d5e7;strokeColor=#9673a6;" value="utilisateur" vertex="1">
+          <mxGeometry height="160" width="90" x="80" y="290" as="geometry" />
         </mxCell>
         <mxCell id="Xu8h62GnhY8Hld9snt8d-8" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
@@ -14,10 +14,70 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Xu8h62GnhY8Hld9snt8d-12" parent="1" style="shape=rect;html=1;verticalAlign=top;fontStyle=1;whiteSpace=wrap;align=center;" value="bouilloire électrique" vertex="1">
-          <mxGeometry height="460" width="310" x="330" y="160" as="geometry" />
+          <mxGeometry height="460" width="350" x="300" y="150" as="geometry" />
         </mxCell>
-        <mxCell id="Xu8h62GnhY8Hld9snt8d-15" parent="1" style="shape=ellipse;html=1;strokeWidth=3;fontStyle=1;whiteSpace=wrap;align=center;perimeter=ellipsePerimeter;" value="UseCaseName" vertex="1">
-          <mxGeometry height="60" width="120" x="425" y="200" as="geometry" />
+        <mxCell id="vFuDuZg6eNrHciSO_HTI-1" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="Arrêter automatiquement le chauffage" vertex="1">
+          <mxGeometry height="80" width="160" x="400" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="vFuDuZg6eNrHciSO_HTI-2" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="Bouillir de l&#39;eau de manière automatique" vertex="1">
+          <mxGeometry height="80" width="180" x="390" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="vFuDuZg6eNrHciSO_HTI-3" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="Arrêter manuellement le chauffage&amp;nbsp;&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="170" width="170" x="395" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="vFuDuZg6eNrHciSO_HTI-4" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="{Refines = arrêter manuellement le chauffage}" vertex="1">
+          <mxGeometry height="20" width="110" x="420" y="550" as="geometry" />
+        </mxCell>
+        <mxCell id="vFuDuZg6eNrHciSO_HTI-9" edge="1" parent="1" source="vFuDuZg6eNrHciSO_HTI-2" style="endArrow=none;html=1;rounded=0;exitX=0.95;exitY=0.688;exitDx=0;exitDy=0;exitPerimeter=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="580" y="400" as="sourcePoint" />
+            <mxPoint x="700" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vFuDuZg6eNrHciSO_HTI-10" edge="1" parent="1" source="vFuDuZg6eNrHciSO_HTI-2" style="endArrow=none;html=1;rounded=0;exitX=0.989;exitY=0.4;exitDx=0;exitDy=0;exitPerimeter=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="390" y="410" as="sourcePoint" />
+            <mxPoint x="700" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vFuDuZg6eNrHciSO_HTI-11" parent="1" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="" vertex="1">
+          <mxGeometry height="80" width="80" x="700" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="vFuDuZg6eNrHciSO_HTI-12" parent="1" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;fillColor=#fff2cc;strokeColor=#d6b656;" value="" vertex="1">
+          <mxGeometry height="80" width="80" x="700" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="vFuDuZg6eNrHciSO_HTI-13" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="eau&amp;nbsp;" vertex="1">
+          <mxGeometry height="30" width="60" x="710" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="vFuDuZg6eNrHciSO_HTI-14" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="réseau électrique" vertex="1">
+          <mxGeometry height="30" width="60" x="710" y="470" as="geometry" />
+        </mxCell>
+        <mxCell id="vFuDuZg6eNrHciSO_HTI-15" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.467;entryY=1.009;entryDx=0;entryDy=0;entryPerimeter=0;" target="vFuDuZg6eNrHciSO_HTI-16" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="650" y="290" as="sourcePoint" />
+            <mxPoint x="680" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vFuDuZg6eNrHciSO_HTI-16" parent="1" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;" value="L&#39;eau apparait implicitement comme matière d&#39;œuvre dans la cas, mais nous la faisons apparaitre explicitement dans ce diagramme;" vertex="1">
+          <mxGeometry height="120" width="200" x="600" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="vFuDuZg6eNrHciSO_HTI-18" edge="1" parent="1" source="vFuDuZg6eNrHciSO_HTI-2" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="vFuDuZg6eNrHciSO_HTI-3" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="390" y="380" as="sourcePoint" />
+            <mxPoint x="440" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vFuDuZg6eNrHciSO_HTI-19" edge="1" parent="1" source="vFuDuZg6eNrHciSO_HTI-2" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="vFuDuZg6eNrHciSO_HTI-1" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="390" y="380" as="sourcePoint" />
+            <mxPoint x="440" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vFuDuZg6eNrHciSO_HTI-20" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&quot;include&quot;" vertex="1">
+          <mxGeometry height="30" width="60" x="500" y="285" as="geometry" />
+        </mxCell>
+        <mxCell id="vFuDuZg6eNrHciSO_HTI-21" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&quot;extend&quot;" vertex="1">
+          <mxGeometry height="30" width="60" x="395" y="400" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
